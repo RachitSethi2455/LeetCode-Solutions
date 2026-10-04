@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**73 problems solved**
+**74 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 52  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 18  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 3
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 52  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 19  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 3
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -63,6 +63,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 605 | [Can Place Flowers](Greedy/0605-can-place-flowers/) | Easy | Greedy | java |
 | 620 | [Not Boring Movies](Database/0620-not-boring-movies/) | Easy | Database | mysql |
 | 627 | [Swap Sex of Employees](Database/0627-swap-sex-of-employees/) | Easy | Database | mysql |
+| 678 | [Valid Parenthesis String](Dynamic%20Programming/0678-valid-parenthesis-string/) | Medium | Dynamic Programming | Java |
 | 709 | [To Lower Case](String/0709-to-lower-case/) | Easy | String | java |
 | 877 | [Stone Game](Dynamic%20Programming/0877-stone-game/) | Medium | Dynamic Programming | java |
 | 1068 | [Product Sales Analysis I](Database/1068-product-sales-analysis-i/) | Easy | Database | mysql |
