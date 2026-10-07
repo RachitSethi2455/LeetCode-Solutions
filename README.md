@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**76 problems solved**
+**77 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 52  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 21  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 3
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 52  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 21  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 219 | [Contains Duplicate II](Sliding%20Window/0219-contains-duplicate-ii/) | Easy | Sliding Window | java |
 | 242 | [Valid Anagram](Sorting/0242-valid-anagram/) | Easy | Sorting | java |
 | 287 | [Find the Duplicate Number](Two%20Pointers/0287-find-the-duplicate-number/) | Medium | Two Pointers | java |
+| 301 | [Remove Invalid Parentheses](Backtracking/0301-remove-invalid-parentheses/) | Hard | Backtracking | Java |
 | 345 | [Reverse Vowels of a String](Two%20Pointers/0345-reverse-vowels-of-a-string/) | Easy | Two Pointers | java |
 | 485 | [Max Consecutive Ones](Array/0485-max-consecutive-ones/) | Easy | Array | java |
 | 570 | [Managers with at Least 5 Direct Reports](Database/0570-managers-with-at-least-5-direct-reports/) | Medium | Database | mysql |
