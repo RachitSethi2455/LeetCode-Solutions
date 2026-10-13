@@ -20,7 +20,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 13 | [Roman to Integer](Math/0013-roman-to-integer/) | Easy | Math | java |
 | 14 | [Longest Common Prefix](Trie/0014-longest-common-prefix/) | Easy | Trie | java |
 | 15 | [3Sum](Two%20Pointers/0015-3sum/) | Medium | Two Pointers | java |
-| 20 | [Valid Parentheses](Stack/0020-valid-parentheses/) | Easy | Stack | java |
+| 20 | [Valid Parentheses](Stack/0020-valid-parentheses/) | Easy | Stack | Java |
 | 22 | [Generate Parentheses](Dynamic%20Programming/0022-generate-parentheses/) | Medium | Dynamic Programming | java |
 | 26 | [Remove Duplicates from Sorted Array](Two%20Pointers/0026-remove-duplicates-from-sorted-array/) | Easy | Two Pointers | java |
 | 27 | [Remove Element](Two%20Pointers/0027-remove-element/) | Easy | Two Pointers | java |
