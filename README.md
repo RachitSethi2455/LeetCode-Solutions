@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**80 problems solved**
+**81 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 53  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 23  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 53  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 24  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -86,6 +86,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 2778 | [Sum of Squares of Special Elements ](Array/2778-sum-of-squares-of-special-elements/) | Easy | Array | Java |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](Math/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy | Math | java |
 | 3718 | [Smallest Missing Multiple of K](Hash%20Table/3718-smallest-missing-multiple-of-k/) | Easy | Hash Table | java |
+| 3723 | [Maximize Sum of Squares of Digits](Greedy/3723-maximize-sum-of-squares-of-digits/) | Medium | Greedy | Java |
 | 3727 | [Maximum Alternating Sum of Squares](Greedy/3727-maximum-alternating-sum-of-squares/) | Medium | Greedy | Java |
 | 3870 | [Count Commas in Range](Math/3870-count-commas-in-range/) | Easy | Math | java |
 | 3875 | [Construct Uniform Parity Array I](Math/3875-construct-uniform-parity-array-i/) | Easy | Math | java |
