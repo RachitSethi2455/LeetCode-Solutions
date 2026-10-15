@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**81 problems solved**
+**82 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 53  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 24  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 54  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 24  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -84,6 +84,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 1934 | [Confirmation Rate](Database/1934-confirmation-rate/) | Medium | Database | mysql |
 | 2485 | [Find the Pivot Integer](Math/2485-find-the-pivot-integer/) | Easy | Math | java |
 | 2778 | [Sum of Squares of Special Elements ](Array/2778-sum-of-squares-of-special-elements/) | Easy | Array | Java |
+| 2913 | [Subarrays Distinct Element Sum of Squares I](Segment%20Tree/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy | Segment Tree | Java |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](Math/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy | Math | java |
 | 3718 | [Smallest Missing Multiple of K](Hash%20Table/3718-smallest-missing-multiple-of-k/) | Easy | Hash Table | java |
 | 3723 | [Maximize Sum of Squares of Digits](Greedy/3723-maximize-sum-of-squares-of-digits/) | Medium | Greedy | Java |
