@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**82 problems solved**
+**83 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 54  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 24  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 54  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 25  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -56,6 +56,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 287 | [Find the Duplicate Number](Two%20Pointers/0287-find-the-duplicate-number/) | Medium | Two Pointers | java |
 | 301 | [Remove Invalid Parentheses](Backtracking/0301-remove-invalid-parentheses/) | Hard | Backtracking | Java |
 | 345 | [Reverse Vowels of a String](Two%20Pointers/0345-reverse-vowels-of-a-string/) | Easy | Two Pointers | java |
+| 468 | [Validate IP Address](String/0468-validate-ip-address/) | Medium | String | Java |
 | 485 | [Max Consecutive Ones](Array/0485-max-consecutive-ones/) | Easy | Array | java |
 | 570 | [Managers with at Least 5 Direct Reports](Database/0570-managers-with-at-least-5-direct-reports/) | Medium | Database | mysql |
 | 575 | [Distribute Candies](Hash%20Table/0575-distribute-candies/) | Easy | Hash Table | java |
