@@ -5,41 +5,39 @@
 `Hash Table` · `String` · `Sliding Window`
 
 ## Intuition  
-The key observation is that a substring without repeating characters can be represented by a sliding window whose left and right borders move only forward. When the right border encounters a character already inside the window, the left border must advance just enough to discard the earlier occurrence, guaranteeing that the window is always “clean”. A naïve solution would recompute the set of characters for every possible substring, costing O(n²) time. By maintaining a hash set of the current window’s characters and adjusting the borders in‑place, we eliminate the extra pass and any need for sorting or recursion. This is the classic two‑pointer (sliding‑window) pattern.
+The key observation is that a substring without repeating characters can be maintained as a sliding window: as the right pointer expands, any character that already appears inside the window forces the left pointer to move forward until the duplicate disappears. This invariant—*the window `[left, right]` always contains unique characters*—eliminates the need for a second pass, a hash‑map of last indices, or any sorting. The pattern used is the classic **two‑pointer sliding window**.
 
 ## Approach  
-1. **Initialize** an empty `HashSet<Character> seen`, `left = 0`, and `maxLen = 0`.  
-2. **Iterate** `right` from `0` to `s.length()‑1`.  
-   - **Loop invariant**: before each iteration, `seen` contains exactly the characters in `s[left … right‑1]`, and this segment has no duplicates.  
-3. **While** `seen` already contains `s.charAt(right)`:  
+1. **Initialisation** – Create an empty `HashSet<Character> seen`. Set `left = 0` and `maxLen = 0`.  
+2. **Expand right** – Iterate `right` from `0` to `s.length()‑1`.  
+   *Loop invariant*: before each iteration, `seen` holds exactly the characters in the current window `[left, right‑1]`, and all are distinct.  
+3. **Handle duplicates** – While `seen.contains(s.charAt(right))` is true:  
    - Remove `s.charAt(left)` from `seen`.  
    - Increment `left`.  
-   - **Exit condition**: the duplicate character has been removed, restoring the invariant.  
-4. **Add** `s.charAt(right)` to `seen`. The window now spans `left … right` and is duplicate‑free.  
-5. **Update** `maxLen` with `Math.max(maxLen, right - left + 1)`.  
-6. After the `for` loop finishes, **return** `maxLen`.  
+   *Exit condition*: the duplicate character at `right` is no longer present in the window, restoring the invariant.  
+   *Pitfall*: forgetting to remove the leftmost character would leave the set polluted and cause an infinite loop on repeated characters.  
+4. **Add new character** – After the inner loop, insert `s.charAt(right)` into `seen`. The window now again satisfies the distinct‑character invariant.  
+5. **Update answer** – Compute the current window length as `right - left + 1` and assign `maxLen = Math.max(maxLen, …)`.  
+6. **Return** – After the outer loop finishes, `maxLen` holds the length of the longest valid substring.
 
-Edge‑case handling:  
-- If `s` is empty, the loop never runs and `maxLen` stays `0`.  
-- For a single‑character string, the inner `while` never triggers, and `maxLen` becomes `1`.  
-- The `while` uses `contains` and removes from the left until the offending character is gone; this works for both even and odd length strings because the window size is recomputed each step.  
+Edge cases are handled automatically: an empty string never enters the loop, leaving `maxLen = 0`; a single‑character string yields `maxLen = 1` because the inner `while` never executes.
 
 ## Dry Run  
-**Input:** `s = "abca"`  
 
-| right | left | seen (after iteration) | maxLen | note |
-|------|------|------------------------|--------|------|
-| 0    | 0    | {a}                    | 1      | added ‘a’ |
-| 1    | 0    | {a,b}                  | 2      | added ‘b’ |
-| 2    | 0    | {a,b,c}                | 3      | added ‘c’ |
-| 3    | 0    | {a,b,c}                | 3      | ‘a’ already in set → remove s[0]=‘a’, left=1; set becomes {b,c} |
-| 3    | 1    | {b,c,a}                | 3      | add ‘a’, window “bca”, length 3 |
+Input: `s = "abca"`
 
-The loop ends with `maxLen = 3`, which corresponds to the longest substring without repeats (“abc” or “bca”).
+| Iteration | right | left | seen (after updates) | maxLen | Change |
+|-----------|-------|------|----------------------|--------|--------|
+| 1 | 0 (`a`) | 0 | {a} | 1 | added `a` |
+| 2 | 1 (`b`) | 0 | {a,b} | 2 | added `b` |
+| 3 | 2 (`c`) | 0 | {a,b,c} | 3 | added `c` |
+| 4 | 3 (`a`) | 0 | {a,b,c} → remove `a` (left=0) → left=1, seen={b,c} → add `a` → {b,c,a} | 3 | duplicate `a` removed from left, window slides to `[1,3]` |
+
+The loop ends; the final `maxLen` is **3**, corresponding to substrings `"abc"` or `"bca"`.
 
 ## Complexity  
-- **Time:** O(n) – each character is added to `seen` once and removed at most once; the `right` pointer moves n times and the `left` pointer moves at most n times.  
-- **Space:** O(min(m, n)) – the hash set stores at most the number of distinct characters in the current window, bounded by the size of the character set (m) or the string length (n). The output integer does not affect this bound.
+- **Time:** O(n) – the outer `for` runs `n` times and the inner `while` advances `left` at most `n` total steps, so each character is added and removed at most once.  
+- **Space:** O(min(n, |Σ|)) – the `HashSet` stores at most one copy of each distinct character in the current window, bounded by the size of the input or the character set. (Output is a single integer, not counted.)
 
 ## Solution (Java)
 
