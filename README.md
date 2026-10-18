@@ -10,7 +10,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](Hash%20Table/0001-two-sum/) | Easy | Hash Table | java |
-| 3 | [Longest Substring Without Repeating Characters](Sliding%20Window/0003-longest-substring-without-repeating-characters/) | Medium | Sliding Window | java |
+| 3 | [Longest Substring Without Repeating Characters](Sliding%20Window/0003-longest-substring-without-repeating-characters/) | Medium | Sliding Window | Java |
 | 4 | [Median of Two Sorted Arrays](Divide%20and%20Conquer/0004-median-of-two-sorted-arrays/) | Hard | Divide and Conquer | java |
 | 5 | [Longest Palindromic Substring](Dynamic%20Programming/0005-longest-palindromic-substring/) | Medium | Dynamic Programming | java |
 | 7 | [Reverse Integer](Math/0007-reverse-integer/) | Medium | Math | java |
