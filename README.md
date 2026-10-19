@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**84 problems solved**
+**85 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 55  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 25  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 56  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 25  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -42,6 +42,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 121 | [Best Time to Buy and Sell Stock](Dynamic%20Programming/0121-best-time-to-buy-and-sell-stock/) | Easy | Dynamic Programming | java |
 | 125 | [Valid Palindrome](Two%20Pointers/0125-valid-palindrome/) | Easy | Two Pointers | java |
 | 136 | [Single Number](Bit%20Manipulation/0136-single-number/) | Easy | Bit Manipulation | java |
+| 141 | [Linked List Cycle](Two%20Pointers/0141-linked-list-cycle/) | Easy | Two Pointers | Java |
 | 155 | [Min Stack](Design/0155-min-stack/) | Medium | Design | java |
 | 169 | [Majority Element](Divide%20and%20Conquer/0169-majority-element/) | Easy | Divide and Conquer | java |
 | 175 | [Combine Two Tables](Database/0175-combine-two-tables/) | Easy | Database | mysql |
