@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**85 problems solved**
+**86 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 56  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 25  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 56  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -51,6 +51,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 183 | [Customers Who Never Order](Database/0183-customers-who-never-order/) | Easy | Database | mysql |
 | 196 | [Delete Duplicate Emails](Database/0196-delete-duplicate-emails/) | Easy | Database | mysql |
 | 197 | [Rising Temperature](Database/0197-rising-temperature/) | Easy | Database | mysql |
+| 215 | [Kth Largest Element in an Array](Divide%20and%20Conquer/0215-kth-largest-element-in-an-array/) | Medium | Divide and Conquer | Java |
 | 217 | [Contains Duplicate](Sorting/0217-contains-duplicate/) | Easy | Sorting | java |
 | 219 | [Contains Duplicate II](Sliding%20Window/0219-contains-duplicate-ii/) | Easy | Sliding Window | java |
 | 242 | [Valid Anagram](Sorting/0242-valid-anagram/) | Easy | Sorting | java |
