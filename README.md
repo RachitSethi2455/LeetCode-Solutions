@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**86 problems solved**
+**87 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 56  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 57  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -71,6 +71,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 678 | [Valid Parenthesis String](Dynamic%20Programming/0678-valid-parenthesis-string/) | Medium | Dynamic Programming | Java |
 | 709 | [To Lower Case](String/0709-to-lower-case/) | Easy | String | java |
 | 856 | [Score of Parentheses](Stack/0856-score-of-parentheses/) | Medium | Stack | Java |
+| 876 | [Middle of the Linked List](Two%20Pointers/0876-middle-of-the-linked-list/) | Easy | Two Pointers | Java |
 | 877 | [Stone Game](Dynamic%20Programming/0877-stone-game/) | Medium | Dynamic Programming | java |
 | 921 | [Minimum Add to Make Parentheses Valid](Greedy/0921-minimum-add-to-make-parentheses-valid/) | Medium | Greedy | Java |
 | 1068 | [Product Sales Analysis I](Database/1068-product-sales-analysis-i/) | Easy | Database | mysql |
