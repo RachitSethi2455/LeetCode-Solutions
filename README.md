@@ -15,7 +15,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 5 | [Longest Palindromic Substring](Dynamic%20Programming/0005-longest-palindromic-substring/) | Medium | Dynamic Programming | Java |
 | 7 | [Reverse Integer](Math/0007-reverse-integer/) | Medium | Math | java |
 | 9 | [Palindrome Number](Math/0009-palindrome-number/) | Easy | Math | java |
-| 11 | [Container With Most Water](Two%20Pointers/0011-container-with-most-water/) | Medium | Two Pointers | java |
+| 11 | [Container With Most Water](Two%20Pointers/0011-container-with-most-water/) | Medium | Two Pointers | Java |
 | 12 | [Integer to Roman](Math/0012-integer-to-roman/) | Medium | Math | java |
 | 13 | [Roman to Integer](Math/0013-roman-to-integer/) | Easy | Math | java |
 | 14 | [Longest Common Prefix](Trie/0014-longest-common-prefix/) | Easy | Trie | java |
