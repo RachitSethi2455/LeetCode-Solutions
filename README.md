@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**87 problems solved**
+**88 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 57  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 58  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -87,6 +87,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 1929 | [Concatenation of Array](Simulation/1929-concatenation-of-array/) | Easy | Simulation | java |
 | 1934 | [Confirmation Rate](Database/1934-confirmation-rate/) | Medium | Database | mysql |
 | 2089 | [Find Target Indices After Sorting Array](Binary%20Search/2089-find-target-indices-after-sorting-array/) | Easy | Binary Search | Java |
+| 2409 | [Count Days Spent Together](Math/2409-count-days-spent-together/) | Easy | Math | Java |
 | 2485 | [Find the Pivot Integer](Math/2485-find-the-pivot-integer/) | Easy | Math | java |
 | 2778 | [Sum of Squares of Special Elements ](Array/2778-sum-of-squares-of-special-elements/) | Easy | Array | Java |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](Segment%20Tree/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy | Segment Tree | Java |
