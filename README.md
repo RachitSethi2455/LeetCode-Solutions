@@ -3,9 +3,9 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 
 <!-- AILEETHUB:START -->
 
-**88 problems solved**
+**89 problems solved**
 
-![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 58  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 26  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
+![Easy](https://img.shields.io/badge/Difficulty-Easy-00b8a3?style=flat-square) 58  ![Medium](https://img.shields.io/badge/Difficulty-Medium-ffc01e?style=flat-square) 27  ![Hard](https://img.shields.io/badge/Difficulty-Hard-ff375f?style=flat-square) 4
 
 | # | Problem | Difficulty | Topic | Language |
 | --- | --- | --- | --- | --- |
@@ -92,6 +92,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 2778 | [Sum of Squares of Special Elements ](Array/2778-sum-of-squares-of-special-elements/) | Easy | Array | Java |
 | 2913 | [Subarrays Distinct Element Sum of Squares I](Segment%20Tree/2913-subarrays-distinct-element-sum-of-squares-i/) | Easy | Segment Tree | Java |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](Math/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy | Math | java |
+| 3693 | [Climbing Stairs II](Dynamic%20Programming/3693-climbing-stairs-ii/) | Medium | Dynamic Programming | Java |
 | 3718 | [Smallest Missing Multiple of K](Hash%20Table/3718-smallest-missing-multiple-of-k/) | Easy | Hash Table | java |
 | 3723 | [Maximize Sum of Squares of Digits](Greedy/3723-maximize-sum-of-squares-of-digits/) | Medium | Greedy | Java |
 | 3727 | [Maximum Alternating Sum of Squares](Greedy/3727-maximum-alternating-sum-of-squares/) | Medium | Greedy | Java |
