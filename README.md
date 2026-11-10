@@ -36,7 +36,7 @@ LeetCode solutions organised by DSA topic, with AI explanations (AILeetHub)
 | 62 | [Unique Paths](Dynamic%20Programming/0062-unique-paths/) | Medium | Dynamic Programming | Java |
 | 66 | [Plus One](Math/0066-plus-one/) | Easy | Math | java |
 | 69 | [Sqrt(x)](Binary%20Search/0069-sqrtx/) | Easy | Binary Search | java |
-| 70 | [Climbing Stairs](Dynamic%20Programming/0070-climbing-stairs/) | Easy | Dynamic Programming | java |
+| 70 | [Climbing Stairs](Dynamic%20Programming/0070-climbing-stairs/) | Easy | Dynamic Programming | Java |
 | 75 | [Sort Colors](Two%20Pointers/0075-sort-colors/) | Medium | Two Pointers | java |
 | 88 | [Merge Sorted Array](Two%20Pointers/0088-merge-sorted-array/) | Easy | Two Pointers | java |
 | 121 | [Best Time to Buy and Sell Stock](Dynamic%20Programming/0121-best-time-to-buy-and-sell-stock/) | Easy | Dynamic Programming | java |

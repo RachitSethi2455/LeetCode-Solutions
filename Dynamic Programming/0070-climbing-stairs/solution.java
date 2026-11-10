@@ -1,16 +1,16 @@
 class Solution {
-    public int climbStairs(int n) {
-        if (n <= 2) return n;
-
-        int first = 1;
-        int second = 2;
-        int result = 0;
-
-        for (int i = 3; i <= n; i++) {
-            result = first + second;
-            first = second;
-            second = result;
+    public int minstep(int n,int i,int[] dp){
+        if (i == n) return 1;
+        if (i > n) return 0;
+        if(dp[i] != -1){
+            return dp[i];
         }
-        return result;
+
+        return dp[i]=minstep(n,i+1,dp) + minstep(n,i+2,dp);
+    }
+    public int climbStairs(int n) {
+        int[] dp = new int[n];
+        Arrays.fill(dp, -1);
+        return minstep(n,0,dp);
     }
 }
